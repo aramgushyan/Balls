@@ -8,7 +8,7 @@ namespace Ball
     {
         IMoveable _moveable;
 
-        List<Ball> _balls = new List<Ball>();
+        List<IBall> _balls = new List<IBall>();
 
         List<Thread> _threads = new List<Thread>();
 
@@ -35,7 +35,7 @@ namespace Ball
 
         private void AddThread()
         {
-            foreach (Ball ball in _balls)
+            foreach (IBall ball in _balls)
             {
                 Thread thread = new Thread(() => ball.BallMove(new DtoBall()
                 {
@@ -68,7 +68,7 @@ namespace Ball
 
         private void button2_Click(object sender, EventArgs e)
         {
-            CreateLabel();
+            CreateBall();
             if (_isStarted)
             {
                 StopThreads();
@@ -76,15 +76,15 @@ namespace Ball
             }
         }
 
-        private void CreateLabel()
+        private void CreateBall()
         {
-            Ball buffer = new Ball(_moveable);
-            buffer.Text = $"Øàð {i}";
-            buffer.AutoSize = true;
-            buffer.Location = new Point(50, 50);
+            IBall buffer = new Ball(_moveable);
+            buffer.Label.Text = $"Øàð {i}";
+            buffer.Label.AutoSize = true;
+            buffer.Label.Location = new Point(50, 50);
             i += 1;
-            panel1.Controls.Add(buffer);
-            buffer.BringToFront();
+            panel1.Controls.Add(buffer.Label);
+            buffer.Label.BringToFront();
             _balls.Add(buffer);
         }
 

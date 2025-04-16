@@ -10,9 +10,9 @@ namespace Ball
     {
         public Panel Panel { get; set; }
 
-        public List<Ball> Balls { get; set; }
+        public List<IBall> Balls { get; set; }
 
-        public Ball Ball { get; set; }
+        public IBall Ball { get; set; }
 
     }
 }

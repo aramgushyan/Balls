@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ball
 {
-    public class Ball : Label
+    public class Ball : Label,IBall
     {
         IMoveable _moveable;
         public Ball(IMoveable moveable)
@@ -15,8 +15,17 @@ namespace Ball
         }
         public void BallMove(DtoBall dtoBall, ref bool isStarted)
         {
-            dtoBall.Ball = this;
+            dtoBall.Ball =  this;
             _moveable.Move(dtoBall, ref isStarted);
         }
+        public Label Label 
+        {
+            get 
+            {
+                return this;
+            }
+        }
+        
+
     }
 }
