@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6BbwfS7Gcz0=",
+  "dgSpecHash": "tfsw2TbqZLk=",
   "success": true,
   "projectFilePath": "C:\\Users\\Арам\\source\\repos\\Ball\\Ball\\Ball.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Арам\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.4\\microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512",
+    "C:\\Users\\Арам\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

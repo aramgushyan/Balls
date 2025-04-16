@@ -14,3 +14,8 @@ C:\Users\Арам\source\repos\Ball\Ball\obj\Debug\net8.0-windows\refint\Ball.dl
 C:\Users\Арам\source\repos\Ball\Ball\obj\Debug\net8.0-windows\Ball.pdb
 C:\Users\Арам\source\repos\Ball\Ball\obj\Debug\net8.0-windows\Ball.genruntimeconfig.cache
 C:\Users\Арам\source\repos\Ball\Ball\obj\Debug\net8.0-windows\ref\Ball.dll
+C:\Users\Арам\source\repos\Ball\Ball\obj\Debug\net8.0-windows\Ball.sourcelink.json
+C:\Users\Арам\source\repos\Ball\Ball\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Арам\source\repos\Ball\Ball\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Арам\source\repos\Ball\Ball\obj\Debug\net8.0-windows\Ball.csproj.AssemblyReference.cache
+C:\Users\Арам\source\repos\Ball\Ball\obj\Debug\net8.0-windows\Ball.csproj.Up2Date
